@@ -258,7 +258,7 @@ const ScrollFeatureSection = () => {
                             block: "center"
                           })
                         }
-                        className={`flex items-start gap-3 px-4 py-1.5 xl:py-5 rounded-lg cursor-pointer transition-all duration-300 ${
+                        className={`flex items-start gap-3 px-4 py-1.5 xl:py-3 rounded-lg cursor-pointer transition-all duration-300 ${
                           activeFeatureIndex === index
                             ? "text-[#6E0ACE] bg-purple-50 scale-102"
                             : "text-slate-600 hover:text-purple-600 hover:bg-purple-50/50"
