@@ -78,7 +78,7 @@ const HeroSection = () => {
           {/* Heading */}
           <div className="text-center mb-6 xl:mb-8 2xl:mb-10">
             <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-6xl 2xl:text-7xl font-bold leading-none">
-              <span className="text-[#6E0ACE]">The flexible way</span>{" "}
+              <span className="bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 bg-clip-text text-transparent animate-gradient">The flexible way</span>{" "}
               <span className="text-gray-900">
                 to manage your coaching business
               </span>
@@ -106,7 +106,7 @@ const HeroSection = () => {
           {/* CTA Button */}
           <div className="flex justify-center">
             <button
-              className="group inline-flex items-center gap-3 xl:gap-4 px-10 xl:px-12 2xl:px-10 py-4 xl:py-5 2xl:py-4 text-sm xl:text-base 2xl:text-lg font-semibold text-white rounded-3xl transition-all hover:shadow-xl hover:scale-105 active:scale-95"
+              className="group inline-flex items-center gap-3 xl:gap-4  px-10 xl:px-12 2xl:px-10 py-5 xl:py-5 2xl:py-4 text-sm xl:text-base 2xl:text-lg font-semibold text-white rounded-3xl transition-all hover:shadow-xl hover:scale-105 active:scale-95"
               style={{ backgroundColor: "#6E0ACE" }}
             >
               Get Started

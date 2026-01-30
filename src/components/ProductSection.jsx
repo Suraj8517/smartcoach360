@@ -42,14 +42,18 @@ export default function ProductSection() {
       <div className="max-w-6xl mx-auto text-center">
         {/* Header Section */}
         <div className="mb-12">
-          <span className="inline-block text-[#6E0ACE] text-xs font-semibold tracking-wider uppercase mb-3 bg-white/10 border rounded-full px-3 py-2 border-gray-300">
-            All-in-One Coaching Platform
-          </span>
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-gradient-to-r from-purple-500/10 to-blue-500/10 backdrop-blur-sm border border-purple-200/50 rounded-full mb-3">
+                        <Zap className="w-3.5 h-3.5 text-purple-600" />
+                        <span className="text-xs font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent uppercase">
+                          All-in-One Coaching Platform
+                        </span>
+                      </div>
+          
           
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 ">
             Everything you need to run
             <br />
-            <span className="text-[#6E0ACE]">people operations</span>
+            <span className="bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 bg-clip-text text-transparent animate-gradient">people operations</span>
           </h1>
           
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-6">

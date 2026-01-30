@@ -228,9 +228,11 @@ const ScrollFeatureSection = () => {
           {/* Mobile Header */}
        
 <div className="lg:hidden mb-6 flex justify-center">
-  <div className="inline-block px-4 py-2 bg-[#6E0ACE] text-white text-sm font-semibold tracking-wider rounded-full">
-    ALL CORE FEATURES
-  </div>
+  <div className="inline-flex gap-2 px-3 py-1.5 bg-gradient-to-r from-purple-500/10 to-blue-500/10 backdrop-blur-sm border border-purple-200/50 rounded-full mb-3">
+                        <span className="text-xs font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent uppercase ">
+                          All-in-One Coaching Platform
+                        </span>
+                      </div>
 </div>
 
 
@@ -240,9 +242,11 @@ const ScrollFeatureSection = () => {
             <div className="hidden lg:block">
               <div className="lg:sticky lg:top-0 lg:h-screen flex items-center">
                 <div className="py-12 lg:py-24 w-[320px] mt-4">
-                  <div className="inline-block px-4 py-2 bg-[#6E0ACE] text-white text-sm font-semibold tracking-wider mb-6 rounded-full mt-4 ">
-                    ALL CORE FEATURES
-                  </div>
+                   <div className="inline-flex gap-3 px-3 py-2 bg-gradient-to-r from-purple-500/10 to-blue-500/10 backdrop-blur-sm border border-purple-200/50 rounded-full mb-3">
+                        <span className="text-base font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent uppercase">
+                          All-in-One Coaching Platform
+                        </span>
+                      </div>
 
                   <div className="space-y-1 xl:mt-8">
                     {features.map((feature, index) => (
