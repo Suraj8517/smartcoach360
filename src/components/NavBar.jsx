@@ -14,7 +14,7 @@ const NavBar = () => {
               <div className="w-8 h-8  rounded-lg flex items-center justify-center">
                 <img src={logo} className="w-14" alt="logo"></img>
               </div>
-              <span className="text-medium font-semibold text-gray-900">SmartCoach360</span>
+              <span className="text-medium font-semibold text-gray-900 tracking-tighter">SmartCoach360</span>
             </div>
           </div>
 
@@ -58,10 +58,15 @@ const NavBar = () => {
 */}
           {/* Desktop CTA Buttons */}
           <div className="hidden lg:flex items-center gap-4">
-            <button className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
+            <button className="text-gray-700 hover:text-gray-900 font-medium transition-colors tracking-tighter">
               Contact Us
             </button>
-            <button className="px-6 py-2.5 rounded-lg text-sm font-medium text-white transition-all hover:opacity-90" style={{ backgroundColor: '#6E0ACE' }}>
+            <button onClick={() =>
+  window.open(
+    "https://calendly.com/sangameswaran-vmaxhealthtech/30min",
+    "_blank"
+  )
+} className="tracking-tighter px-6 py-2.5 rounded-lg text-sm font-medium text-white transition-all hover:opacity-90" style={{ backgroundColor: '#6E0ACE' }}>
                                 Book a Demo
 
             </button>

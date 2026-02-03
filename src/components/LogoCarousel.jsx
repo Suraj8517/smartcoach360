@@ -60,7 +60,7 @@ const LogoCarousel = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         @keyframes scroll-images {
           from {
             transform: translateX(0);

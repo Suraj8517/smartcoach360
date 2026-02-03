@@ -34,16 +34,16 @@ export default function WhoIsItFor() {
       <div className="max-w-5xl mx-auto relative z-10">
         {/* Header */}
         <div className="text-center mb-14">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-gradient-to-r from-purple-500/10 to-blue-500/10 backdrop-blur-sm border border-purple-200/50 rounded-full mb-3">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-linear-to-r from-purple-500/10 to-blue-500/10 backdrop-blur-sm border border-purple-200/50 rounded-full mb-3">
                         <CircleQuestionMark className="w-3.5 h-3.5 text-purple-600" />
-                        <span className="text-xs font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent uppercase">
+                        <span className="text-xs font-bold bg-linear-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent uppercase">
                            Who Is SmartCoach360 For?
                         </span>
                       </div>
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 ">
             Designed for Wellness
             <br />
-            <span className="bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 bg-clip-text text-transparent animate-gradient"> Professionals Like You</span>
+            <span className="bg-linear-to-r from-purple-600 via-blue-600 to-purple-600 bg-clip-text text-transparent animate-gradient"> Professionals Like You</span>
           </h1>
           
 
@@ -91,11 +91,11 @@ export default function WhoIsItFor() {
                       isEven ? "flex-row" : "flex-row-reverse"
                     }`}
                   >  <div
-                  className={`relative flex-shrink-0 w-9 h-9 sm:w-12 sm:h-12 bg-gradient-to-br ${prof.gradient} rounded-full flex items-center justify-center shadow-lg`}
+                  className={`relative shrink-0 w-9 h-9 sm:w-12 sm:h-12 bg-linear-to-br ${prof.gradient} rounded-full flex items-center justify-center shadow-lg`}
                 >
                   <Icon className="w-6 h-6 sm:w-5 sm:h-5 text-white" />
                   <div
-                    className={`absolute inset-0 bg-gradient-to-br ${prof.gradient} rounded-full blur-lg opacity-40`}
+                    className={`absolute inset-0 bg-linear-to-br ${prof.gradient} rounded-full blur-lg opacity-40`}
                   />
                 </div>
 
@@ -115,7 +115,7 @@ export default function WhoIsItFor() {
             Ready to transform your wellness practice?
           </p>
 
-          <button className="group relative px-8 py-3 bg-gradient-to-r from-purple-600 via-fuchsia-600 to-indigo-600 text-white font-semibold rounded-full text-sm sm:text-base hover:shadow-xl transition-all duration-300">
+          <button className="group relative px-8 py-3 bg-linear-to-r from-purple-600 via-fuchsia-600 to-indigo-600 text-white font-semibold rounded-full text-sm sm:text-base hover:shadow-xl transition-all duration-300">
             Get Started Today
           </button>
         </div>

@@ -77,8 +77,8 @@ const HeroSection = () => {
 
           {/* Heading */}
           <div className="text-center mb-6 xl:mb-8 2xl:mb-10">
-            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-6xl 2xl:text-7xl font-bold leading-none">
-              <span className="bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 bg-clip-text text-transparent animate-gradient">The flexible way</span>{" "}
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-6xl 2xl:text-7xl font-bold tracking-tighter leading-none">
+              <span className="bg-linear-to-r from-purple-600 via-blue-600 to-purple-600 bg-clip-text text-transparent animate-gradient">The flexible way</span>{" "}
               <span className="text-gray-900">
                 to manage your coaching business
               </span>
@@ -87,7 +87,7 @@ const HeroSection = () => {
 
           {/* Subheading */}
           <div className="text-center max-w-2xl xl:max-w-3xl 2xl:max-w-4xl mx-auto mb-1 xl:mb-2 2xl:mb-3">
-            <p className="text-base sm:text-lg md:text-xl xl:text-xl 2xl:text-xl text-gray-600 leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl xl:text-xl 2xl:text-xl text-gray-600 leading-relaxed tracking-tight">
               With our all-in-one platform, coaches can manage{" "}
               <span className="text-[#6E0ACE]">
                 clients, track progress, and grow their business
@@ -98,7 +98,7 @@ const HeroSection = () => {
 
           {/* CTA text */}
           <div className="text-center mb-8 xl:mb-10 2xl:mb-12">
-            <p className="text-sm sm:text-lg xl:text-xl 2xl:text-xl font-semibold text-gray-900">
+            <p className="text-sm sm:text-lg xl:text-xl 2xl:text-xl font-semibold text-gray-900 tracking-tight">
               Start running your coaching business in one place.
             </p>
           </div>

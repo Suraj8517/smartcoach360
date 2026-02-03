@@ -1,0 +1,9 @@
+@keyframes float1 {0%,100%{transform:translate(-50%,-50%) rotate(0deg) translateX(60px) rotate(0deg) translateY(0)}50%{transform:translate(-50%,-50%) rotate(0deg) translateX(60px) rotate(0deg) translateY(-4px)}}
+        @keyframes float2 {0%,100%{transform:translate(-50%,-50%) rotate(45deg) translateX(60px) rotate(-45deg) translateY(0)}50%{transform:translate(-50%,-50%) rotate(45deg) translateX(60px) rotate(-45deg) translateY(-4px)}}
+        @keyframes float3 {0%,100%{transform:translate(-50%,-50%) rotate(90deg) translateX(60px) rotate(-90deg) translateY(0)}50%{transform:translate(-50%,-50%) rotate(90deg) translateX(60px) rotate(-90deg) translateY(-5px)}}
+        @keyframes float4 {0%,100%{transform:translate(-50%,-50%) rotate(135deg) translateX(60px) rotate(-135deg) translateY(0)}50%{transform:translate(-50%,-50%) rotate(135deg) translateX(60px) rotate(-135deg) translateY(-5px)}}
+        @keyframes float5 {0%,100%{transform:translate(-50%,-50%) rotate(180deg) translateX(60px) rotate(-180deg) translateY(0)}50%{transform:translate(-50%,-50%) rotate(180deg) translateX(60px) rotate(-180deg) translateY(-4px)}}
+        @keyframes float6 {0%,100%{transform:translate(-50%,-50%) rotate(225deg) translateX(60px) rotate(-225deg) translateY(0)}50%{transform:translate(-50%,-50%) rotate(225deg) translateX(60px) rotate(-225deg) translateY(-5px)}}
+        @keyframes float7 {0%,100%{transform:translate(-50%,-50%) rotate(270deg) translateX(60px) rotate(-270deg) translateY(0)}50%{transform:translate(-50%,-50%) rotate(270deg) translateX(60px) rotate(-270deg) translateY(-5px)}}
+        @keyframes float8 {0%,100%{transform:translate(-50%,-50%) rotate(315deg) translateX(60px) rotate(-315deg) translateY(0)}50%{transform:translate(-50%,-50%) rotate(315deg) translateX(60px) rotate(-315deg) translateY(-4px)}}
+        
